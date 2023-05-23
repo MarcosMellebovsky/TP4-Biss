@@ -1,0 +1,38 @@
+html {
+  font-size: 14px;
+  position: relative;
+  min-height: 100%;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+body {
+  margin: 20px 60px 0px 20px;
+  background-color: brown;
+}
+
+footer {
+  position: fixed; 
+  bottom: 0; 
+  margin: 10px 0px 20px 0px;
+}
+img
+{
+  float:left;
+  width: 200px;
+  height: 200px;
+  padding-left: 20px;
+}
+img:hover{
+  transform: translateY(-10px);
+}
+.descripcion{
+  font-size: 25px;
+  color: aqua;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
